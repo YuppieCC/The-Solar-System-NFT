@@ -22,6 +22,7 @@ snapshot:
 deploy-contract:
 	forge create --rpc-url ${NETWORK_RPC_URL} \
 		--private-key ${PRIVATE_KEY} \
+		--constructor-args $(CONSTRUCTOR_ARGS) \
 		src/$(DEPLOY_CONTRACT).sol:$(DEPLOY_CONTRACT) \
 		--gas-price ${GAS_PRICE}
 
