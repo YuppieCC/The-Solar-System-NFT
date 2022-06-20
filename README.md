@@ -3,6 +3,7 @@
 
 ## Overview
 Build and deploy an ERC721 (NFT) smart contract to Ethereum Rinkeby using foundry.
+
 Collection: [The Solar System NFT](https://testnets.opensea.io/collection/the-solar-system)
 ## Contracts
 Name | Code | Address | Network
